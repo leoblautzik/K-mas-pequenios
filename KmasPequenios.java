@@ -7,25 +7,22 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 public class KmasPequenios {
-	
+
 	private int cantEnteros;
 	private int cantPequenios;
 	private TreeSet<Integer> enteros = new TreeSet<Integer>();
 
-	String t="enterosPequenios.in";
-	
 	public KmasPequenios(String t) throws FileNotFoundException{
 		Scanner sc = new Scanner(new File(t));
 		this.cantEnteros=sc.nextInt();
 		this.cantPequenios=sc.nextInt();
-		
+
 		for(int i=0;i<cantEnteros;i++)
 			this.enteros.add(sc.nextInt());		
 
 		sc.close();
-
 	}
-	
+
 	public void resolver(String t) throws IOException{
 		PrintWriter s = new PrintWriter(new FileWriter(t)); 
 		s.println(cantPequenios);
@@ -35,18 +32,12 @@ public class KmasPequenios {
 		}
 		s.close();
 	}
-	
+
 	public static void main(String[] args) throws IOException {
-		
+
 		KmasPequenios kmp = new KmasPequenios("enterosPequenios.in");
 		kmp.resolver("pequenios.out");
-			
-			
-			
 
-			
-			
-			
 	}
-	
+
 }

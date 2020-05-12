@@ -10,6 +10,7 @@ Datos de salida: Primera línea la cantidad K de valores obtenidos.
 Siguientes K líneas, los K valores más pequeños obtenidos.
 
 numeros.in
+
 10 3
 
 -3

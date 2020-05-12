@@ -11,19 +11,34 @@ Siguientes K líneas, los K valores más pequeños obtenidos.
 
 numeros.in
 10 3
+
 -3
+
 5
+
 67
+
 87
+
 -12
+
 14
+
 -3
+
 1
+
 1
+
 1
+
 
 pequenios.out
 3
+
 -12
+
 -3
+
 1
+
